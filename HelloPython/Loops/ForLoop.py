@@ -18,3 +18,22 @@ for i in range(6):
 # print values of a list based on its index
 for i in range(0,len(fruits)):
     print("{} {} {} {}".format("The fruit name at index ", i,"is",fruits[i]))
+
+# print the pattern
+#   *
+#   *   *
+#   *   *   *
+#   *   *   *   *
+#   *   *   *   *   *
+
+for row in range(1,6):
+    for col in range (1,row+1):
+        print("*", end="")
+    print("\r")
+
+# print sep
+print(1,2,3,4,5,6,7,8,9,10,sep='-')
+
+string = "Surajit"
+for s in string:
+    print(s)
