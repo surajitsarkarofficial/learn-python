@@ -17,4 +17,4 @@ for i in range(6):
 
 # print values of a list based on its index
 for i in range(0,len(fruits)):
-    print("{} {} {} {}".format("The fruit name at index ",i,"is",fruits[i]))
+    print("{} {} {} {}".format("The fruit name at index ", i,"is",fruits[i]))
