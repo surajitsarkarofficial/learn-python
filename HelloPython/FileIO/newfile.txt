@@ -1,0 +1,6 @@
+thank you.Lets learn how to read and write files in Python.
+This is a python test file.
+Hello
+thank you.Lets learn how to read and write files in Python.
+This is a python test file.
+Hello
