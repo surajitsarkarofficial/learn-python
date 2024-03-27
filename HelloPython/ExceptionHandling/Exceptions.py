@@ -1,3 +1,5 @@
+from ExceptionHandling.MyCustomException import MyCustomException
+
 try:
     result = 100/0
 
@@ -47,4 +49,14 @@ except Exception as e:
     print(e)
 finally:
     print("Name has been validated succesfully...")
+
+# Raise custom excpetion
+age = 16
+
+try:
+    if age < 18:
+        raise MyCustomException("Voter is a minor and not eligible to vote...")
+except MyCustomException as me:
+    print(me)
+
 
