@@ -1,0 +1,10 @@
+print('Enter your name')
+name=input()
+print('Enter you Gender (M/F).')
+gender=input()
+print('Enter Phone Number')
+phn=input()
+if len(phn) !=10:
+    raise Exception("Invalid Phone number...")
+print('Details entered are --- ')
+print(name,gender,phn,sep=" | ")
