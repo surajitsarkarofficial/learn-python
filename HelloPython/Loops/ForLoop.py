@@ -37,3 +37,20 @@ print(1,2,3,4,5,6,7,8,9,10,sep='-')
 string = "Surajit"
 for s in string:
     print(s)
+
+
+# print a sequence of numbers from 0 - 10
+for i in range(11):
+    print(i)
+
+# print a sequence of numbers from 1 - 10
+for i in range(1,11):
+    print(i)
+
+# print a sequence of numbers from 1 - 10 , incremented by 2
+for i in range(1,11,2):
+    print(i)
+
+# print a sequence of numbers from 10 - 1 , decremented by 2
+for i in range(10,0,-2):
+    print(i)
