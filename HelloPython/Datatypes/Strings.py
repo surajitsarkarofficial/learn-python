@@ -32,3 +32,12 @@ print ("LO" not in str)
 print(r"https://mypythonworld.com/login")
 print("The string is %s"%(str))
 print("Rahul said \"This is not Possible...\"")
+
+
+#String Casing
+sentence = "Hello this is Python learning..."
+print(sentence.upper())
+print(sentence.lower())
+print(sentence.title())
+print(sentence.capitalize())
+print(sentence.swapcase())
