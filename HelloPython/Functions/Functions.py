@@ -74,6 +74,13 @@ mult = lambda n1,n2,n3: n1*n2*n3
 
 print(mult(10,20,30))
 
+def getStudentData():
+    return "Ram", "Sharma", 34
+
+fname,lname,age = getStudentData()
+print("First Name is ",fname)
+print("Last Name is ",lname)
+print("Age is ", age)
 
 
 
